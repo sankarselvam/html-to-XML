@@ -1,0 +1,18 @@
+{
+  "FileLocation": "D:\\Data\\Chip\\PICS_Development\\Development\\Sample_Dev\\Test_Plan",
+  "XmlFilePath": "D:\\Data\\Chip\\PICS_Development\\Development\\Sample_Dev\\Matter_XML",
+  "VersionName":"V_Sample",
+  "TopLevelJsonName": "Matter_TC_Top_Level_PICS_Map",
+  "TestPlanHtmlFiles": {
+    "MainTestPlans": {
+      "FileName": "index_2025_07_15.html",
+      "PlanName": "Main Test Plans",
+      "DocumentName": "index.html[pdf]"
+    },
+    "ClusterTestPlans": {
+      "FileName":"allclusters_2025_07_15.html",
+      "PlanName": "Cluster Test Plans",
+      "DocumentName": "allclusters.html[pdf]"
+    }
+  }
+}

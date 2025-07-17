@@ -1,0 +1,1429 @@
+2025-07-15 20:12:35 INFO     Execution started - Test plan HTML to XML, ID:F220EC - 2025-07-15 - 20:12:35:632
+2025-07-15 20:12:35 INFO     Executing log_class_method in D:\Data\Chip\PICS_Development\Development\Sample_Dev\chip-test-plans-master\tools\PICS_Automation\logger_mixin.py
+2025-07-15 20:12:35 INFO     Executing process_data in DataProcessor
+2025-07-15 20:12:35 INFO     Executing read_file_data in JsonTestPlanReader
+2025-07-15 20:12:35 INFO     Executing acquire_data in HTMLDataAcquisition
+2025-07-15 20:12:35 ERROR    Error in acquire_data method of HTMLDataAcquisition class: [Errno 2] No such file or directory: 'F:\\Data\\Report_chip\\HTML_Documents\\Test_Plan\\index_2025_02_21.html'
+Traceback (most recent call last):
+  File "D:\Data\Chip\PICS_Development\Development\Sample_Dev\chip-test-plans-master\tools\PICS_Automation\html_data_acquisition.py", line 50, in acquire_data
+    with open(file_abs_path, encoding="utf8") as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\Data\\Report_chip\\HTML_Documents\\Test_Plan\\index_2025_02_21.html'
+2025-07-15 20:12:35 ERROR    process_data in DataProcessor: failed to acquire HTML data
+2025-07-15 20:12:35 ERROR    Execution terminated unexpectedly: ID:F220EC - 2025-07-15 - 20:12:35:722 
+
+2025-07-15 20:37:16 INFO     Execution started - Test plan HTML to XML, ID:CE9D3B - 2025-07-15 - 20:37:16:581
+2025-07-15 20:37:16 INFO     Executing log_class_method in D:\Data\Chip\PICS_Development\Development\Sample_Dev\chip-test-plans-master\tools\PICS_Automation\logger_mixin.py
+2025-07-15 20:37:16 INFO     Executing process_data in DataProcessor
+2025-07-15 20:37:16 INFO     Executing read_file_data in JsonTestPlanReader
+2025-07-15 20:37:16 INFO     Executing acquire_data in HTMLDataAcquisition
+2025-07-15 20:37:16 ERROR    Error in acquire_data method of HTMLDataAcquisition class: [Errno 2] No such file or directory: 'D:\\Data\\Chip\\PICS_Development\\Development\\Sample_Dev\\Test_Plan\\index_2025_02_21.html'
+Traceback (most recent call last):
+  File "D:\Data\Chip\PICS_Development\Development\Sample_Dev\chip-test-plans-master\tools\PICS_Automation\html_data_acquisition.py", line 50, in acquire_data
+    with open(file_abs_path, encoding="utf8") as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Data\\Chip\\PICS_Development\\Development\\Sample_Dev\\Test_Plan\\index_2025_02_21.html'
+2025-07-15 20:37:16 ERROR    process_data in DataProcessor: failed to acquire HTML data
+2025-07-15 20:37:16 ERROR    Execution terminated unexpectedly: ID:CE9D3B - 2025-07-15 - 20:37:16:675 
+
+2025-07-15 20:47:20 INFO     Execution started - Test plan HTML to XML, ID:8908C1 - 2025-07-15 - 20:47:20:288
+2025-07-15 20:47:20 INFO     Executing log_class_method in D:\Data\Chip\PICS_Development\Development\Sample_Dev\chip-test-plans-master\tools\PICS_Automation\logger_mixin.py
+2025-07-15 20:47:20 INFO     Executing process_data in DataProcessor
+2025-07-15 20:47:20 INFO     Executing read_file_data in JsonTestPlanReader
+2025-07-15 20:47:20 INFO     Executing acquire_data in HTMLDataAcquisition
+2025-07-15 20:47:33 INFO     Executing extract_revision_data in RevisionHtmlData
+2025-07-15 20:47:33 INFO     Executing extract_revision_data in RevisionHtmlData
+2025-07-15 20:47:33 INFO     Executing load_revision_data in RevisionHtmlData
+2025-07-15 20:47:33 INFO     Executing process_html_data in HTMLDataWrangler
+2025-07-15 20:47:33 INFO     Executing process_html_data in HtmlTagProcessor
+2025-07-15 20:47:33 INFO     Executing load_html in HtmlTagProcessor
+2025-07-15 20:47:34 INFO     Executing data wrangling in TpPicsWrangling
+2025-07-15 20:47:34 INFO     Executing process_html_data in HtmlTagProcessor
+2025-07-15 20:47:34 INFO     Executing load_html in HtmlTagProcessor
+2025-07-15 20:47:34 INFO     Executing data wrangling in TpPicsWrangling
+2025-07-15 20:47:35 DEBUG    Test Cases definition heading is missing :   ClusterTestPlans-1.Commodity Metering Cluster Test Plan
+2025-07-15 20:47:35 DEBUG    No of PICS definition heading is missing :  ClusterTestPlans-0
+2025-07-15 20:47:35 DEBUG    No of Test Cases definition heading is missing :  ClusterTestPlans-1
+2025-07-15 20:47:35 INFO     process_html_data in HTMLDataWrangler executed successfully
+2025-07-15 20:47:35 INFO     Executing explore in TpPicsExplorer
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Temperature Measurement Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Relative Humidity Measurement Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Soil Measurement Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Thermostat User Interface Configuration Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Pump Configuration and Control Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Media Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Level Control Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Occupancy Sensing Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Flow Measurement Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Pressure Measurement Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Thermostat Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Ethernet Network Diagnostics Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Thread Network Diagnostics Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Diagnostic Logs Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Identify Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Power Source Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Power Source Configuration Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Boolean State Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Illuminance Measurement Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Switch Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Actions Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Mode Select Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  User Label Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Fixed Label Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Localization Configuration Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Unit Localization Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Binding Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Scenes Management Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Access Control Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Time Synchronization Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Carbon Monoxide Concentration Measurement Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Carbon Dioxide Concentration Measurement Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Nitrogen Dioxide Concentration Measurement Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Ozone Concentration Measurement Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  PM2.5 Concentration Measurement Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Formaldehyde Concentration Measurement Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  PM1 Concentration Measurement Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  PM10 Concentration Measurement Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Total Volatile Organic Compounds Concentration Measurement Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Radon Concentration Measurement Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Temperature Control Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Laundry Dryer Controls Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Laundry Washer Controls Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Fan Control Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Dishwasher Alarm Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Air Quality Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  HEPA Filter Monitoring Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Activated Carbon Filter Monitoring Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  RVC Operational State Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Microwave Oven Control Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Valve Configuration and Control Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Energy Preference Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Messages Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Power Topology Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Joint Fabric Datastore Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Ecosystem Information Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Commissioner Control Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Wi-Fi Network Management Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Thread Network Directory Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  WebRTC Transport Provider Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  WebRTC Transport Requestor Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Chime Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Commodity Metering Cluster Test Plan 
+2025-07-15 20:47:35 DEBUG    No PIXIT definition table :  Camera AV Stream Management Cluster Test Plan 
+2025-07-15 20:47:35 INFO     Executing read_pics_tag in TpPicsExplorer
+2025-07-15 20:47:35 DEBUG    Invalid Table - 2 ['Note' 'consistency of these PICS-flags is checked in TC-SWTCH-3.2'] - Switch Cluster Test Plan - Table No:10
+2025-07-15 20:47:35 DEBUG    Invalid Table - 2 ['Note'
+ "These 'manual' changes could be done be by manual control at the device or other manufacturer provided means, e.g. an app which has some proprietary interface into the server allowing to change the set of exposed groups and/or actions."] - Actions Cluster Test Plan - Table No:6
+2025-07-15 20:47:36 INFO     Table column heading details and used count
+2025-07-15 20:47:36 DEBUG    ['Variable', 'Description', 'Mandatory/Optional', 'Notes/Additional Constraints'] - 513 tables
+2025-07-15 20:47:36 DEBUG    ['Note', 'consistency of these PICS-flags is checked in TC-SWTCH-3.2'] - 1 tables
+2025-07-15 20:47:36 DEBUG    ['Note', "These 'manual' changes could be done be by manual control at the device or other manufacturer provided means, e.g. an app which has some proprietary interface into the server allowing to change the set of exposed groups and/or actions."] - 1 tables
+2025-07-15 20:47:36 INFO     Executing explore in TpTestCasesExplorer
+2025-07-15 20:47:36 DEBUG    No Test Cases in   :  Commodity Metering Cluster Test Plan
+2025-07-15 20:47:36 INFO     Executing exploration in XmlPicsExploration
+2025-07-15 20:47:36 DEBUG    Unexpected PICS Format :  General Commissioning Cluster Test Plan-{PICS_ESF_TC_CLIENT} - Added into ServerClient.SERVER.manually
+2025-07-15 20:47:36 DEBUG    Wrong PICS definition Table : General Commissioning Cluster Test Plan-{PICS_ESF_TC_CLIENT}-defined in Server
+2025-07-15 20:47:36 DEBUG    Unexpected PICS Format :  WebRTC Transport Provider Cluster Test Plan-WEBRTCP.S.A0000CurrentSessions - Added into ServerClient.SERVER.manually
+2025-07-15 20:47:36 DEBUG    Wrong PICS definition Table : WebRTC Transport Provider Cluster Test Plan-WEBRTCP.S.A0000CurrentSessions-defined in Server
+2025-07-15 20:47:36 DEBUG    Unexpected PICS Format :  WebRTC Transport Requestor Cluster Test Plan-WEBRTCR.S.A0000CurrentSessions - Added into ServerClient.SERVER.manually
+2025-07-15 20:47:36 DEBUG    Wrong PICS definition Table : WebRTC Transport Requestor Cluster Test Plan-WEBRTCR.S.A0000CurrentSessions-defined in Server
+2025-07-15 20:47:36 DEBUG    Unexpected PICS Format :  Commodity Price Cluster Test Plan-{PICS_SE_FORECASTCHANGE} - Added into ServerClient.SERVER.manually
+2025-07-15 20:47:36 DEBUG    Wrong PICS definition Table : Commodity Price Cluster Test Plan-{PICS_SE_FORECASTCHANGE}-defined in Server
+2025-07-15 20:47:36 DEBUG    Unexpected PICS Format :  Commodity Metering Cluster Test Plan-.S - Added into ServerClient.SERVER.manually
+2025-07-15 20:47:36 DEBUG    Wrong PICS definition Table : Commodity Metering Cluster Test Plan-.S-defined in Role
+2025-07-15 20:47:36 DEBUG    Unexpected PICS Format :  Commodity Metering Cluster Test Plan-.C - Added into ServerClient.SERVER.manually
+2025-07-15 20:47:36 DEBUG    Wrong PICS definition Table : Commodity Metering Cluster Test Plan-.C-defined in Role
+2025-07-15 20:47:36 DEBUG    Unexpected PICS Format :  Commodity Metering Cluster Test Plan-.S.A0000(MeteredQuantity) - Added into ServerClient.SERVER.manually
+2025-07-15 20:47:36 DEBUG    Wrong PICS definition Table : Commodity Metering Cluster Test Plan-.S.A0000(MeteredQuantity)-defined in Server
+2025-07-15 20:47:36 DEBUG    Unexpected PICS Format :  Commodity Metering Cluster Test Plan-.S.A0001(MeteredQuantityTimestamp) - Added into ServerClient.SERVER.manually
+2025-07-15 20:47:36 DEBUG    Wrong PICS definition Table : Commodity Metering Cluster Test Plan-.S.A0001(MeteredQuantityTimestamp)-defined in Server
+2025-07-15 20:47:36 DEBUG    Unexpected PICS Format :  Commodity Metering Cluster Test Plan-.S.A0002(MeasurementType) - Added into ServerClient.SERVER.manually
+2025-07-15 20:47:36 DEBUG    Wrong PICS definition Table : Commodity Metering Cluster Test Plan-.S.A0002(MeasurementType)-defined in Server
+2025-07-15 20:47:36 DEBUG    Unexpected PICS Format :  Commodity Metering Cluster Test Plan-.S.A0003(MaximumMeteredQuantities) - Added into ServerClient.SERVER.manually
+2025-07-15 20:47:36 DEBUG    Wrong PICS definition Table : Commodity Metering Cluster Test Plan-.S.A0003(MaximumMeteredQuantities)-defined in Server
+2025-07-15 20:47:36 DEBUG    Unexpected PICS Format :  Electrical Grid Conditions Cluster Test Plan-{PICS_SE_FORECASTCONDITIONSCHANGED} - Added into ServerClient.SERVER.manually
+2025-07-15 20:47:36 DEBUG    Wrong PICS definition Table : Electrical Grid Conditions Cluster Test Plan-{PICS_SE_FORECASTCONDITIONSCHANGED}-defined in Server
+2025-07-15 20:47:36 INFO     XmlPicsExploration - exploration : End
+2025-07-15 20:47:36 INFO     mcore_cluster_list - 
+Switch Cluster Test Plan ,
+ Groups Cluster Test Plan
+2025-07-15 20:47:36 INFO     Executing process_cluster_data in StatusFinder
+2025-07-15 20:47:36 DEBUG    PICS values without Comformance PIXIT.OO.MaxCommunicationTurnaround - OO.S
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in EEM.S.F00(IMPE) - EEM.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in EEM.S.F01(EXPE) - EEM.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in EEM.S.F02(CUME) - EEM.S: O.b+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in EEM.S.F03(PERE) - EEM.S: O.b+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in EPM.S.F00(DIRC) - EPM.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in EPM.S.F01(ALTC) - EPM.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in PCC.S.F00(PRSCONST) - PCC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in PCC.S.F01(PRSCOMP) - PCC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in PCC.S.F02(FLW) - PCC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in PCC.S.F03(SPD) - PCC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in PCC.S.F04(TEMP) - PCC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in OCC.S.F00(OTHER) - OCC.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in OCC.S.F01(PIR) - OCC.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in OCC.S.F02(US) - OCC.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in OCC.S.F03(PHY) - OCC.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in OCC.S.F04(AIR) - OCC.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in OCC.S.F05(RAD) - OCC.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in OCC.S.F06(RFS) - OCC.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in OCC.S.F07(VIS) - OCC.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in WNCV.S.F00(LF) - WNCV.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in WNCV.S.F01(TL) - WNCV.S:O.a+
+2025-07-15 20:47:36 DEBUG    PICS values without Comformance PIXIT.WNCV.FULLMOTION - WNCV.S
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in PS.S.F00(Wired) - PS.S:O.a
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in PS.S.F01(Battery) - PS.S:O.a
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in SWTCH.S.F00(LS) - SWTCH.S: O.a
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in SWTCH.S.F01(MS) - SWTCH.S: O.a
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in CMOCONC.S.F00(MEA) - CMOCONC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in CMOCONC.S.F01(LEV) - CMOCONC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in CDOCONC.S.F00(MEA) - CDOCONC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in CDOCONC.S.F01(LEV) - CDOCONC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in NDOCONC.S.F00(MEA) - NDOCONC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in NDOCONC.S.F01(LEV) - NDOCONC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in OZCONC.S.F00(MEA) - OZCONC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in OZCONC.S.F01(LEV) - OZCONC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in PMICONC.S.F00(MEA) - PMICONC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in PMICONC.S.F01(LEV) - PMICONC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in FLDCONC.S.F00(MEA) - FLDCONC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in FLDCONC.S.F01(LEV) - FLDCONC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in PMHCONC.S.F00(MEA) - PMHCONC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in PMHCONC.S.F01(LEV) - PMHCONC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in PMKCONC.S.F00(MEA) - PMKCONC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in PMKCONC.S.F01(LEV) - PMKCONC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in TVOCCONC.S.F00(MEA) - TVOCCONC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in TVOCCONC.S.F01(LEV) - TVOCCONC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in RNCONC.S.F00(MEA) - RNCONC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in RNCONC.S.F01(LEV) - RNCONC.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in DISHALM.S.M.InflowAlarmSupported - DISHALM.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in DISHALM.S.M.DrainAlarmSupported - DISHALM.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in DISHALM.S.M.DoorAlarmSupported - DISHALM.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in DISHALM.S.M.TempLowAlarmSupported - DISHALM.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in DISHALM.S.M.TempHighAlarmSupported - DISHALM.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in DISHALM.S.M.WaterLevelAlarmSupported - DISHALM.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in SMOKECO.S.F00(SMOKE) - SMOKECO.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in SMOKECO.S.F01(CO) - SMOKECO.S:O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in EPREF.S.F00(EnergyBalance) - EPREF.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in EPREF.S.F01(LowPowerModeSensitivity) - EPREF.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in PWRTL.S.F00(NODE) - PWRTL.S: O.a
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in PWRTL.S.F01(LEAF) - PWRTL.S: O.a
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in PWRTL.S.F02(SET) - PWRTL.S: O.a
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in AVSUM.S.F01(MPAN) - AVSUM.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in AVSUM.S.F02(MTILT) - AVSUM.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in AVSUM.S.F03(MZOOM) - AVSUM.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in CLCTRL.S.F00(PS) - CLCTRL.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in CLCTRL.S.F01(LT) - CLCTRL.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in CLDIM.S.F00(PS) - CLDIM.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in CLDIM.S.F01(LT) - CLDIM.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in AVSM.S.A0022(ImageRotation) - AVSM.S.F05(ICTL): O.b+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in AVSM.S.A0023(ImageFlipHorizontal) - AVSM.S.F05(ICTL): O.b+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in AVSM.S.A0024(ImageFlipVertical) - AVSM.S.F05(ICTL): O.b+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in AVSM.S.F00(ADO) - AVSM.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in AVSM.S.F01(VDO) - AVSM.S: O.a+
+2025-07-15 20:47:36 DEBUG    Spl type Conformance format in AVSM.S.F02(SNP) - AVSM.S: O.a+
+2025-07-15 20:47:36 DEBUG    1. Multiple PICS definitions found in - OO.C.C00.Tx(Off),Cluster details:
+2025-07-15 20:47:36 DEBUG      1. Parent definition : On/Off Cluster Test Plan 
+2025-07-15 20:47:36 DEBUG      2. Duplicate definition: Binding Cluster Test Plan 
+2025-07-15 20:47:36 DEBUG    2. Multiple PICS definitions found in - OO.C.C01.Tx(On),Cluster details:
+2025-07-15 20:47:36 DEBUG      1. Parent definition : On/Off Cluster Test Plan 
+2025-07-15 20:47:36 DEBUG      2. Duplicate definition: Binding Cluster Test Plan 
+2025-07-15 20:47:36 DEBUG    3. Multiple PICS definitions found in - I.S.A0000(IdentifyTime),Cluster details:
+2025-07-15 20:47:36 DEBUG      1. Parent definition : Identify Cluster Test Plan 
+2025-07-15 20:47:36 DEBUG      2. Duplicate definition: Groups Cluster Test Plan 
+2025-07-15 20:47:36 DEBUG    4. Multiple PICS definitions found in - I.S.C00.Rsp(Identify),Cluster details:
+2025-07-15 20:47:36 DEBUG      1. Parent definition : Identify Cluster Test Plan 
+2025-07-15 20:47:36 DEBUG      2. Duplicate definition: Groups Cluster Test Plan 
+2025-07-15 20:47:36 DEBUG    5. Multiple PICS definitions found in - GRPKEY.C,Cluster details:
+2025-07-15 20:47:36 DEBUG      1. Duplicate definition: Binding Cluster Test Plan 
+2025-07-15 20:47:36 DEBUG      2. Duplicate definition: Groups Cluster Test Plan 
+2025-07-15 20:47:36 DEBUG    6. Multiple PICS definitions found in - G.C.C00.Tx(AddGroup),Cluster details:
+2025-07-15 20:47:36 DEBUG      1. Duplicate definition: Binding Cluster Test Plan 
+2025-07-15 20:47:36 DEBUG      2. Parent definition : Groups Cluster Test Plan 
+2025-07-15 20:47:36 ERROR    Error in duplicate_pics_details_remove of StatusFinder: 'GRPKEY.C'
+Traceback (most recent call last):
+  File "D:\Data\Chip\PICS_Development\Development\Sample_Dev\chip-test-plans-master\tools\PICS_Automation\status_finder.py", line 407, in duplicate_pics_details_remove
+    parent_cluster = parent_pics_dict[duplicate_pics]
+                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'GRPKEY.C'
+2025-07-15 20:47:36 DEBUG    1. Multiple PIXIT definitions found in - {PIXIT.WAITTIME.COUNTDOWN},Cluster details:
+2025-07-15 20:47:36 DEBUG      1. Duplicate definition: Operational State Cluster Test Plan 
+2025-07-15 20:47:36 DEBUG      2. Duplicate definition: Oven Cavity Operational State Cluster Test Plan 
+2025-07-15 20:47:36 DEBUG    2. Multiple PIXIT definitions found in - {PIXIT.WAITTIME.REBOOT},Cluster details:
+2025-07-15 20:47:36 DEBUG      1. Duplicate definition: Operational State Cluster Test Plan 
+2025-07-15 20:47:36 DEBUG      2. Duplicate definition: Oven Cavity Operational State Cluster Test Plan 
+2025-07-15 20:47:36 INFO     Pics - O count: 735
+2025-07-15 20:47:36 INFO     Pics - M count: 484
+2025-07-15 20:47:36 INFO     Pics - X count: 23
+2025-07-15 20:47:36 INFO     Pics - M Provisional count: 0
+2025-07-15 20:47:36 INFO     Pics - NOT Zigbee count: 0
+2025-07-15 20:47:36 INFO     Pics - Feature count: 835
+2025-07-15 20:47:36 INFO     Pics - O.a+ count: 61
+2025-07-15 20:47:36 INFO     Pics - Double line count: 48
+2025-07-15 20:47:36 INFO     Pics - Duplicate count: 6
+2025-07-15 20:47:36 INFO     Pics - Others count: 0
+2025-07-15 20:47:36 INFO     Pics - PICS count: 2106
+2025-07-15 20:47:36 INFO     Pics - TOTAL count: 2104
+2025-07-15 20:47:36 INFO     Pics - MCORE count: 2
+2025-07-15 20:47:36 INFO     Pics - O.b+ count: 5
+2025-07-15 20:47:36 INFO     Pics - O.a count: 11
+2025-07-15 20:47:36 INFO     Pics - Difference between PICS count vs TOTAL count: 2
+2025-07-15 20:47:36 INFO     Pics - All_difference: 12
+2025-07-15 20:47:36 INFO     Pixit - O count: 27
+2025-07-15 20:47:36 INFO     Pixit - M count: 41
+2025-07-15 20:47:36 INFO     Pixit - X count: 0
+2025-07-15 20:47:36 INFO     Pixit - M Provisional count: 0
+2025-07-15 20:47:36 INFO     Pixit - NOT Zigbee count: 0
+2025-07-15 20:47:36 INFO     Pixit - Feature count: 17
+2025-07-15 20:47:36 INFO     Pixit - O.a+ count: 0
+2025-07-15 20:47:36 INFO     Pixit - Double line count: 0
+2025-07-15 20:47:36 INFO     Pixit - Duplicate count: 2
+2025-07-15 20:47:36 INFO     Pixit - Others count: 0
+2025-07-15 20:47:36 INFO     Pixit - PIXIT count: 85
+2025-07-15 20:47:36 INFO     Pixit - TOTAL count: 85
+2025-07-15 20:47:36 INFO     Pixit - MCORE count: 0
+2025-07-15 20:47:36 INFO     Pixit - Difference between PIXIT count vs TOTAL count: 0
+2025-07-15 20:47:36 INFO     Pixit - All_difference: 0
+2025-07-15 20:47:36 INFO     CreateXmlFile _ On/Off Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ On-Off Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Electrical Energy Measurement Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Electrical Energy Measurement Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Electrical Power Measurement Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Electrical Power Measurement Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Temperature Measurement Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Temperature Measurement Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Relative Humidity Measurement Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Relative Humidity Measurement Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Soil Measurement Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Soil Measurement Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Thermostat User Interface Configuration Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Thermostat User Interface Configuration Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Pump Configuration and Control Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Pump Configuration and Control Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Media Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Media Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Level Control Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Level Control Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Color Control Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Color Control Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Occupancy Sensing Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Occupancy Sensing Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Flow Measurement Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Flow Measurement Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Pressure Measurement Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Pressure Measurement Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Window Covering Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Window Covering Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Thermostat Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Thermostat Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Software Diagnostics Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Software Diagnostics Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Ethernet Network Diagnostics Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Ethernet Network Diagnostics Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Thread Network Diagnostics Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Thread Network Diagnostics Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Wi-Fi Network Diagnostics Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Wi-Fi Network Diagnostics Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Diagnostic Logs Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Diagnostic Logs Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Identify Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Identify Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Power Source Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Power Source Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Power Source Configuration Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Power Source Configuration Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Boolean State Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Boolean State Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Illuminance Measurement Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Illuminance Measurement Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Switch Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Switch Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Actions Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Actions Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Mode Select Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Mode Select Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ RVC Run Mode Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ RVC Run Mode Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ RVC Clean Mode Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ RVC Clean Mode Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Descriptor Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Descriptor Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ General Diagnostics Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ General Diagnostics Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ General Commissioning Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ General Commissioning Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ User Label Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ User Label Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Fixed Label Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Fixed Label Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Localization Configuration Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Localization Configuration Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Unit Localization Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Unit Localization Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Time Format Localization Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Time Format Localization Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Door Lock Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Door Lock Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Binding Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Binding Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Groups Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Groups Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Scenes Management Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Scenes Management Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Access Control Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Access Control Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Bridged Device Basic Information Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Bridged Device Basic Information Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Time Synchronization Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Time Synchronization Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Carbon Monoxide Concentration Measurement Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Carbon Monoxide Concentration Measurement Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Carbon Dioxide Concentration Measurement Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Carbon Dioxide Concentration Measurement Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Nitrogen Dioxide Concentration Measurement Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Nitrogen Dioxide Concentration Measurement Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Ozone Concentration Measurement Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Ozone Concentration Measurement Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ PM2.5 Concentration Measurement Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ PM2.5 Concentration Measurement Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Formaldehyde Concentration Measurement Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Formaldehyde Concentration Measurement Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ PM1 Concentration Measurement Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ PM1 Concentration Measurement Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ PM10 Concentration Measurement Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ PM10 Concentration Measurement Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Total Volatile Organic Compounds Concentration Measurement Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Total Volatile Organic Compounds Concentration Measurement Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Radon Concentration Measurement Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Radon Concentration Measurement Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Temperature Control Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Temperature Control Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Laundry Dryer Controls Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Laundry Dryer Controls Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Laundry Washer Mode Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Laundry Washer Mode Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Laundry Washer Controls Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Laundry Washer Controls Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Fan Control Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Fan Control Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Dishwasher Mode Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Dishwasher Mode Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Dishwasher Alarm Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Dishwasher Alarm Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Operational State Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Operational State Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Oven Cavity Operational State Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Oven Cavity Operational State Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Air Quality Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Air Quality Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ HEPA Filter Monitoring Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ HEPA Filter Monitoring Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Activated Carbon Filter Monitoring Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Activated Carbon Filter Monitoring Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Refrigerator and Temperature Controlled Cabinet Mode Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Refrigerator and Temperature Controlled Cabinet Mode Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Refrigerator Alarm Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Refrigerator Alarm Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ RVC Operational State Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ RVC Operational State Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Smoke CO Alarm Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Smoke CO Alarm Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Device Energy Management Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Device Energy Management Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Device Energy Management Mode Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Device Energy Management Mode Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Microwave Oven Control Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Microwave Oven Control Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Microwave Oven Mode Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Microwave Oven Mode Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Boolean State Configuration Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Boolean State Configuration Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Valve Configuration and Control Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Valve Configuration and Control Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Oven Mode Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Oven Mode Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Energy EVSE Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Energy EVSE Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Energy Preference Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Energy Preference Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Energy EVSE Mode Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Energy EVSE Mode Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Messages Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Messages Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Power Topology Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Power Topology Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Joint Fabric Datastore Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Joint Fabric Datastore Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Thread Border Router Management Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Thread Border Router Management Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Ecosystem Information Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Ecosystem Information Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Commissioner Control Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Commissioner Control Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Service Area Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Service Area Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Wi-Fi Network Management Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Wi-Fi Network Management Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Thread Network Directory Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Thread Network Directory Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Water Heater Management Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Water Heater Management Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Water Heater Mode Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Water Heater Mode Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Camera AV Settings User Level Management Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Camera AV Settings User Level Management Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ WebRTC Transport Provider Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ WebRTC Transport Provider Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ WebRTC Transport Requestor Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ WebRTC Transport Requestor Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Closure Control Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Closure Control Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Closure Dimension Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Closure Dimension Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Chime Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Chime Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Commodity Price Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Commodity Price Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Commodity Metering Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Commodity Metering Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Camera AV Stream Management Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Camera AV Stream Management Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Electrical Grid Conditions Cluster Test Plan is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Electrical Grid Conditions Cluster Test Plan is finished
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Base is started
+2025-07-15 20:47:36 INFO     CreateXmlFile _ Base is finished
+2025-07-15 20:47:36 INFO     Execution Completed: ID:8908C1 - 2025-07-15 - 20:47:36:863 
+
+2025-07-15 22:02:48 INFO     Execution started - Test plan HTML to XML, ID:371D58 - 2025-07-15 - 22:02:48:604
+2025-07-15 22:02:48 INFO     Executing log_class_method in D:\Data\Chip\PICS_Development\Development\Sample_Dev\chip-test-plans-master\tools\PICS_Automation\logger_mixin.py
+2025-07-15 22:02:48 INFO     Executing process_data in DataProcessor
+2025-07-15 22:02:48 INFO     Executing read_file_data in JsonTestPlanReader
+2025-07-15 22:02:48 INFO     Executing acquire_data in HTMLDataAcquisition
+2025-07-15 22:03:03 INFO     Executing extract_revision_data in RevisionHtmlData
+2025-07-15 22:03:03 INFO     Executing extract_revision_data in RevisionHtmlData
+2025-07-15 22:03:03 INFO     Executing load_revision_data in RevisionHtmlData
+2025-07-15 22:03:04 INFO     Executing process_html_data in HTMLDataWrangler
+2025-07-15 22:03:04 INFO     Executing process_html_data in HtmlTagProcessor
+2025-07-15 22:03:04 INFO     Executing load_html in HtmlTagProcessor
+2025-07-15 22:03:05 INFO     Executing data wrangling in TpPicsWrangling
+2025-07-15 22:03:05 INFO     Executing process_html_data in HtmlTagProcessor
+2025-07-15 22:03:05 INFO     Executing load_html in HtmlTagProcessor
+2025-07-15 22:03:07 INFO     Executing data wrangling in TpPicsWrangling
+2025-07-15 22:03:07 DEBUG    Test Cases definition heading is missing :   ClusterTestPlans-1.Commodity Metering Cluster Test Plan
+2025-07-15 22:03:07 DEBUG    No of PICS definition heading is missing :  ClusterTestPlans-0
+2025-07-15 22:03:07 DEBUG    No of Test Cases definition heading is missing :  ClusterTestPlans-1
+2025-07-15 22:03:07 INFO     process_html_data in HTMLDataWrangler executed successfully
+2025-07-15 22:03:07 INFO     Executing explore in TpPicsExplorer
+2025-07-15 22:03:07 DEBUG    No PIXIT definition table :  Temperature Measurement Cluster Test Plan 
+2025-07-15 22:03:07 DEBUG    No PIXIT definition table :  Relative Humidity Measurement Cluster Test Plan 
+2025-07-15 22:03:07 DEBUG    No PIXIT definition table :  Soil Measurement Cluster Test Plan 
+2025-07-15 22:03:07 DEBUG    No PIXIT definition table :  Thermostat User Interface Configuration Cluster Test Plan 
+2025-07-15 22:03:07 DEBUG    No PIXIT definition table :  Pump Configuration and Control Cluster Test Plan 
+2025-07-15 22:03:07 DEBUG    No PIXIT definition table :  Media Cluster Test Plan 
+2025-07-15 22:03:07 DEBUG    No PIXIT definition table :  Level Control Cluster Test Plan 
+2025-07-15 22:03:07 DEBUG    No PIXIT definition table :  Occupancy Sensing Cluster Test Plan 
+2025-07-15 22:03:07 DEBUG    No PIXIT definition table :  Flow Measurement Cluster Test Plan 
+2025-07-15 22:03:07 DEBUG    No PIXIT definition table :  Pressure Measurement Cluster Test Plan 
+2025-07-15 22:03:07 DEBUG    No PIXIT definition table :  Thermostat Cluster Test Plan 
+2025-07-15 22:03:07 DEBUG    No PIXIT definition table :  Ethernet Network Diagnostics Cluster Test Plan 
+2025-07-15 22:03:07 DEBUG    No PIXIT definition table :  Thread Network Diagnostics Cluster Test Plan 
+2025-07-15 22:03:07 DEBUG    No PIXIT definition table :  Diagnostic Logs Cluster Test Plan 
+2025-07-15 22:03:07 DEBUG    No PIXIT definition table :  Identify Cluster Test Plan 
+2025-07-15 22:03:07 DEBUG    No PIXIT definition table :  Power Source Cluster Test Plan 
+2025-07-15 22:03:07 DEBUG    No PIXIT definition table :  Power Source Configuration Cluster Test Plan 
+2025-07-15 22:03:07 DEBUG    No PIXIT definition table :  Boolean State Cluster Test Plan 
+2025-07-15 22:03:07 DEBUG    No PIXIT definition table :  Illuminance Measurement Cluster Test Plan 
+2025-07-15 22:03:07 DEBUG    No PIXIT definition table :  Switch Cluster Test Plan 
+2025-07-15 22:03:07 DEBUG    No PIXIT definition table :  Actions Cluster Test Plan 
+2025-07-15 22:03:07 DEBUG    No PIXIT definition table :  Mode Select Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  User Label Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Fixed Label Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Localization Configuration Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Unit Localization Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Binding Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Scenes Management Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Access Control Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Time Synchronization Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Carbon Monoxide Concentration Measurement Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Carbon Dioxide Concentration Measurement Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Nitrogen Dioxide Concentration Measurement Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Ozone Concentration Measurement Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  PM2.5 Concentration Measurement Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Formaldehyde Concentration Measurement Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  PM1 Concentration Measurement Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  PM10 Concentration Measurement Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Total Volatile Organic Compounds Concentration Measurement Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Radon Concentration Measurement Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Temperature Control Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Laundry Dryer Controls Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Laundry Washer Controls Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Fan Control Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Dishwasher Alarm Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Air Quality Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  HEPA Filter Monitoring Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Activated Carbon Filter Monitoring Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  RVC Operational State Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Microwave Oven Control Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Valve Configuration and Control Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Energy Preference Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Messages Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Power Topology Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Joint Fabric Datastore Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Ecosystem Information Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Commissioner Control Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Wi-Fi Network Management Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Thread Network Directory Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  WebRTC Transport Provider Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  WebRTC Transport Requestor Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Chime Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Commodity Metering Cluster Test Plan 
+2025-07-15 22:03:08 DEBUG    No PIXIT definition table :  Camera AV Stream Management Cluster Test Plan 
+2025-07-15 22:03:08 INFO     Executing read_pics_tag in TpPicsExplorer
+2025-07-15 22:03:08 DEBUG    Invalid Table - 2 ['Note' 'consistency of these PICS-flags is checked in TC-SWTCH-3.2'] - Switch Cluster Test Plan - Table No:10
+2025-07-15 22:03:08 DEBUG    Invalid Table - 2 ['Note'
+ "These 'manual' changes could be done be by manual control at the device or other manufacturer provided means, e.g. an app which has some proprietary interface into the server allowing to change the set of exposed groups and/or actions."] - Actions Cluster Test Plan - Table No:6
+2025-07-15 22:03:09 INFO     Table column heading details and used count
+2025-07-15 22:03:09 DEBUG    ['Variable', 'Description', 'Mandatory/Optional', 'Notes/Additional Constraints'] - 513 tables
+2025-07-15 22:03:09 DEBUG    ['Note', 'consistency of these PICS-flags is checked in TC-SWTCH-3.2'] - 1 tables
+2025-07-15 22:03:09 DEBUG    ['Note', "These 'manual' changes could be done be by manual control at the device or other manufacturer provided means, e.g. an app which has some proprietary interface into the server allowing to change the set of exposed groups and/or actions."] - 1 tables
+2025-07-15 22:03:09 INFO     Executing explore in TpTestCasesExplorer
+2025-07-15 22:03:09 DEBUG    No Test Cases in   :  Commodity Metering Cluster Test Plan
+2025-07-15 22:03:09 INFO     Executing exploration in XmlPicsExploration
+2025-07-15 22:03:09 DEBUG    Unexpected PICS Format :  General Commissioning Cluster Test Plan-{PICS_ESF_TC_CLIENT} - Added into ServerClient.SERVER.manually
+2025-07-15 22:03:09 DEBUG    Wrong PICS definition Table : General Commissioning Cluster Test Plan-{PICS_ESF_TC_CLIENT}-defined in Server
+2025-07-15 22:03:09 DEBUG    Unexpected PICS Format :  WebRTC Transport Provider Cluster Test Plan-WEBRTCP.S.A0000CurrentSessions - Added into ServerClient.SERVER.manually
+2025-07-15 22:03:09 DEBUG    Wrong PICS definition Table : WebRTC Transport Provider Cluster Test Plan-WEBRTCP.S.A0000CurrentSessions-defined in Server
+2025-07-15 22:03:09 DEBUG    Unexpected PICS Format :  WebRTC Transport Requestor Cluster Test Plan-WEBRTCR.S.A0000CurrentSessions - Added into ServerClient.SERVER.manually
+2025-07-15 22:03:09 DEBUG    Wrong PICS definition Table : WebRTC Transport Requestor Cluster Test Plan-WEBRTCR.S.A0000CurrentSessions-defined in Server
+2025-07-15 22:03:09 DEBUG    Unexpected PICS Format :  Commodity Price Cluster Test Plan-{PICS_SE_FORECASTCHANGE} - Added into ServerClient.SERVER.manually
+2025-07-15 22:03:09 DEBUG    Wrong PICS definition Table : Commodity Price Cluster Test Plan-{PICS_SE_FORECASTCHANGE}-defined in Server
+2025-07-15 22:03:09 DEBUG    Unexpected PICS Format :  Commodity Metering Cluster Test Plan-.S - Added into ServerClient.SERVER.manually
+2025-07-15 22:03:09 DEBUG    Wrong PICS definition Table : Commodity Metering Cluster Test Plan-.S-defined in Role
+2025-07-15 22:03:09 DEBUG    Unexpected PICS Format :  Commodity Metering Cluster Test Plan-.C - Added into ServerClient.SERVER.manually
+2025-07-15 22:03:09 DEBUG    Wrong PICS definition Table : Commodity Metering Cluster Test Plan-.C-defined in Role
+2025-07-15 22:03:09 DEBUG    Unexpected PICS Format :  Commodity Metering Cluster Test Plan-.S.A0000(MeteredQuantity) - Added into ServerClient.SERVER.manually
+2025-07-15 22:03:09 DEBUG    Wrong PICS definition Table : Commodity Metering Cluster Test Plan-.S.A0000(MeteredQuantity)-defined in Server
+2025-07-15 22:03:09 DEBUG    Unexpected PICS Format :  Commodity Metering Cluster Test Plan-.S.A0001(MeteredQuantityTimestamp) - Added into ServerClient.SERVER.manually
+2025-07-15 22:03:09 DEBUG    Wrong PICS definition Table : Commodity Metering Cluster Test Plan-.S.A0001(MeteredQuantityTimestamp)-defined in Server
+2025-07-15 22:03:09 DEBUG    Unexpected PICS Format :  Commodity Metering Cluster Test Plan-.S.A0002(MeasurementType) - Added into ServerClient.SERVER.manually
+2025-07-15 22:03:09 DEBUG    Wrong PICS definition Table : Commodity Metering Cluster Test Plan-.S.A0002(MeasurementType)-defined in Server
+2025-07-15 22:03:09 DEBUG    Unexpected PICS Format :  Commodity Metering Cluster Test Plan-.S.A0003(MaximumMeteredQuantities) - Added into ServerClient.SERVER.manually
+2025-07-15 22:03:09 DEBUG    Wrong PICS definition Table : Commodity Metering Cluster Test Plan-.S.A0003(MaximumMeteredQuantities)-defined in Server
+2025-07-15 22:03:09 DEBUG    Unexpected PICS Format :  Electrical Grid Conditions Cluster Test Plan-{PICS_SE_FORECASTCONDITIONSCHANGED} - Added into ServerClient.SERVER.manually
+2025-07-15 22:03:09 DEBUG    Wrong PICS definition Table : Electrical Grid Conditions Cluster Test Plan-{PICS_SE_FORECASTCONDITIONSCHANGED}-defined in Server
+2025-07-15 22:03:09 INFO     XmlPicsExploration - exploration : End
+2025-07-15 22:03:09 INFO     mcore_cluster_list - 
+Switch Cluster Test Plan ,
+ Groups Cluster Test Plan
+2025-07-15 22:03:09 INFO     Executing process_cluster_data in StatusFinder
+2025-07-15 22:03:09 DEBUG    PICS values without Comformance PIXIT.OO.MaxCommunicationTurnaround - OO.S
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in EEM.S.F00(IMPE) - EEM.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in EEM.S.F01(EXPE) - EEM.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in EEM.S.F02(CUME) - EEM.S: O.b+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in EEM.S.F03(PERE) - EEM.S: O.b+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in EPM.S.F00(DIRC) - EPM.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in EPM.S.F01(ALTC) - EPM.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in PCC.S.F00(PRSCONST) - PCC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in PCC.S.F01(PRSCOMP) - PCC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in PCC.S.F02(FLW) - PCC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in PCC.S.F03(SPD) - PCC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in PCC.S.F04(TEMP) - PCC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in OCC.S.F00(OTHER) - OCC.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in OCC.S.F01(PIR) - OCC.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in OCC.S.F02(US) - OCC.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in OCC.S.F03(PHY) - OCC.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in OCC.S.F04(AIR) - OCC.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in OCC.S.F05(RAD) - OCC.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in OCC.S.F06(RFS) - OCC.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in OCC.S.F07(VIS) - OCC.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in WNCV.S.F00(LF) - WNCV.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in WNCV.S.F01(TL) - WNCV.S:O.a+
+2025-07-15 22:03:09 DEBUG    PICS values without Comformance PIXIT.WNCV.FULLMOTION - WNCV.S
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in PS.S.F00(Wired) - PS.S:O.a
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in PS.S.F01(Battery) - PS.S:O.a
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in SWTCH.S.F00(LS) - SWTCH.S: O.a
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in SWTCH.S.F01(MS) - SWTCH.S: O.a
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in CMOCONC.S.F00(MEA) - CMOCONC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in CMOCONC.S.F01(LEV) - CMOCONC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in CDOCONC.S.F00(MEA) - CDOCONC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in CDOCONC.S.F01(LEV) - CDOCONC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in NDOCONC.S.F00(MEA) - NDOCONC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in NDOCONC.S.F01(LEV) - NDOCONC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in OZCONC.S.F00(MEA) - OZCONC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in OZCONC.S.F01(LEV) - OZCONC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in PMICONC.S.F00(MEA) - PMICONC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in PMICONC.S.F01(LEV) - PMICONC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in FLDCONC.S.F00(MEA) - FLDCONC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in FLDCONC.S.F01(LEV) - FLDCONC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in PMHCONC.S.F00(MEA) - PMHCONC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in PMHCONC.S.F01(LEV) - PMHCONC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in PMKCONC.S.F00(MEA) - PMKCONC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in PMKCONC.S.F01(LEV) - PMKCONC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in TVOCCONC.S.F00(MEA) - TVOCCONC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in TVOCCONC.S.F01(LEV) - TVOCCONC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in RNCONC.S.F00(MEA) - RNCONC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in RNCONC.S.F01(LEV) - RNCONC.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in DISHALM.S.M.InflowAlarmSupported - DISHALM.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in DISHALM.S.M.DrainAlarmSupported - DISHALM.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in DISHALM.S.M.DoorAlarmSupported - DISHALM.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in DISHALM.S.M.TempLowAlarmSupported - DISHALM.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in DISHALM.S.M.TempHighAlarmSupported - DISHALM.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in DISHALM.S.M.WaterLevelAlarmSupported - DISHALM.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in SMOKECO.S.F00(SMOKE) - SMOKECO.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in SMOKECO.S.F01(CO) - SMOKECO.S:O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in EPREF.S.F00(EnergyBalance) - EPREF.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in EPREF.S.F01(LowPowerModeSensitivity) - EPREF.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in PWRTL.S.F00(NODE) - PWRTL.S: O.a
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in PWRTL.S.F01(LEAF) - PWRTL.S: O.a
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in PWRTL.S.F02(SET) - PWRTL.S: O.a
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in AVSUM.S.F01(MPAN) - AVSUM.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in AVSUM.S.F02(MTILT) - AVSUM.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in AVSUM.S.F03(MZOOM) - AVSUM.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in CLCTRL.S.F00(PS) - CLCTRL.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in CLCTRL.S.F01(LT) - CLCTRL.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in CLDIM.S.F00(PS) - CLDIM.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in CLDIM.S.F01(LT) - CLDIM.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in AVSM.S.A0022(ImageRotation) - AVSM.S.F05(ICTL): O.b+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in AVSM.S.A0023(ImageFlipHorizontal) - AVSM.S.F05(ICTL): O.b+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in AVSM.S.A0024(ImageFlipVertical) - AVSM.S.F05(ICTL): O.b+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in AVSM.S.F00(ADO) - AVSM.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in AVSM.S.F01(VDO) - AVSM.S: O.a+
+2025-07-15 22:03:09 DEBUG    Spl type Conformance format in AVSM.S.F02(SNP) - AVSM.S: O.a+
+2025-07-15 22:03:09 DEBUG    1. Multiple PICS definitions found in - OO.C.C00.Tx(Off),Cluster details:
+2025-07-15 22:03:09 DEBUG      1. Parent definition : On/Off Cluster Test Plan 
+2025-07-15 22:03:09 DEBUG      2. Duplicate definition: Binding Cluster Test Plan 
+2025-07-15 22:03:09 DEBUG    2. Multiple PICS definitions found in - OO.C.C01.Tx(On),Cluster details:
+2025-07-15 22:03:09 DEBUG      1. Parent definition : On/Off Cluster Test Plan 
+2025-07-15 22:03:09 DEBUG      2. Duplicate definition: Binding Cluster Test Plan 
+2025-07-15 22:03:09 DEBUG    3. Multiple PICS definitions found in - I.S.A0000(IdentifyTime),Cluster details:
+2025-07-15 22:03:09 DEBUG      1. Parent definition : Identify Cluster Test Plan 
+2025-07-15 22:03:09 DEBUG      2. Duplicate definition: Groups Cluster Test Plan 
+2025-07-15 22:03:09 DEBUG    4. Multiple PICS definitions found in - I.S.C00.Rsp(Identify),Cluster details:
+2025-07-15 22:03:09 DEBUG      1. Parent definition : Identify Cluster Test Plan 
+2025-07-15 22:03:09 DEBUG      2. Duplicate definition: Groups Cluster Test Plan 
+2025-07-15 22:03:09 DEBUG    5. Multiple PICS definitions found in - GRPKEY.C,Cluster details:
+2025-07-15 22:03:09 DEBUG      1. Duplicate definition: Binding Cluster Test Plan 
+2025-07-15 22:03:09 DEBUG      2. Duplicate definition: Groups Cluster Test Plan 
+2025-07-15 22:03:09 DEBUG    6. Multiple PICS definitions found in - G.C.C00.Tx(AddGroup),Cluster details:
+2025-07-15 22:03:09 DEBUG      1. Duplicate definition: Binding Cluster Test Plan 
+2025-07-15 22:03:09 DEBUG      2. Parent definition : Groups Cluster Test Plan 
+2025-07-15 22:03:09 ERROR    Error in duplicate_pics_details_remove of StatusFinder: 'GRPKEY.C'
+Traceback (most recent call last):
+  File "D:\Data\Chip\PICS_Development\Development\Sample_Dev\chip-test-plans-master\tools\PICS_Automation\status_finder.py", line 407, in duplicate_pics_details_remove
+    parent_cluster = parent_pics_dict[duplicate_pics]
+                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'GRPKEY.C'
+2025-07-15 22:03:09 DEBUG    1. Multiple PIXIT definitions found in - {PIXIT.WAITTIME.COUNTDOWN},Cluster details:
+2025-07-15 22:03:09 DEBUG      1. Duplicate definition: Operational State Cluster Test Plan 
+2025-07-15 22:03:09 DEBUG      2. Duplicate definition: Oven Cavity Operational State Cluster Test Plan 
+2025-07-15 22:03:09 DEBUG    2. Multiple PIXIT definitions found in - {PIXIT.WAITTIME.REBOOT},Cluster details:
+2025-07-15 22:03:09 DEBUG      1. Duplicate definition: Operational State Cluster Test Plan 
+2025-07-15 22:03:09 DEBUG      2. Duplicate definition: Oven Cavity Operational State Cluster Test Plan 
+2025-07-15 22:03:09 INFO     Pics - O count: 735
+2025-07-15 22:03:09 INFO     Pics - M count: 484
+2025-07-15 22:03:09 INFO     Pics - X count: 23
+2025-07-15 22:03:09 INFO     Pics - M Provisional count: 0
+2025-07-15 22:03:09 INFO     Pics - NOT Zigbee count: 0
+2025-07-15 22:03:09 INFO     Pics - Feature count: 835
+2025-07-15 22:03:09 INFO     Pics - O.a+ count: 61
+2025-07-15 22:03:09 INFO     Pics - Double line count: 48
+2025-07-15 22:03:09 INFO     Pics - Duplicate count: 6
+2025-07-15 22:03:09 INFO     Pics - Others count: 0
+2025-07-15 22:03:09 INFO     Pics - PICS count: 2106
+2025-07-15 22:03:09 INFO     Pics - TOTAL count: 2104
+2025-07-15 22:03:09 INFO     Pics - MCORE count: 2
+2025-07-15 22:03:09 INFO     Pics - O.b+ count: 5
+2025-07-15 22:03:09 INFO     Pics - O.a count: 11
+2025-07-15 22:03:09 INFO     Pics - Difference between PICS count vs TOTAL count: 2
+2025-07-15 22:03:09 INFO     Pics - All_difference: 12
+2025-07-15 22:03:09 INFO     Pixit - O count: 27
+2025-07-15 22:03:09 INFO     Pixit - M count: 41
+2025-07-15 22:03:09 INFO     Pixit - X count: 0
+2025-07-15 22:03:09 INFO     Pixit - M Provisional count: 0
+2025-07-15 22:03:09 INFO     Pixit - NOT Zigbee count: 0
+2025-07-15 22:03:09 INFO     Pixit - Feature count: 17
+2025-07-15 22:03:09 INFO     Pixit - O.a+ count: 0
+2025-07-15 22:03:09 INFO     Pixit - Double line count: 0
+2025-07-15 22:03:09 INFO     Pixit - Duplicate count: 2
+2025-07-15 22:03:09 INFO     Pixit - Others count: 0
+2025-07-15 22:03:09 INFO     Pixit - PIXIT count: 85
+2025-07-15 22:03:09 INFO     Pixit - TOTAL count: 85
+2025-07-15 22:03:09 INFO     Pixit - MCORE count: 0
+2025-07-15 22:03:09 INFO     Pixit - Difference between PIXIT count vs TOTAL count: 0
+2025-07-15 22:03:09 INFO     Pixit - All_difference: 0
+2025-07-15 22:03:09 INFO     CreateXmlFile _ On/Off Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ On-Off Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Electrical Energy Measurement Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Electrical Energy Measurement Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Electrical Power Measurement Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Electrical Power Measurement Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Temperature Measurement Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Temperature Measurement Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Relative Humidity Measurement Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Relative Humidity Measurement Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Soil Measurement Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Soil Measurement Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Thermostat User Interface Configuration Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Thermostat User Interface Configuration Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Pump Configuration and Control Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Pump Configuration and Control Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Media Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Media Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Level Control Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Level Control Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Color Control Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Color Control Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Occupancy Sensing Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Occupancy Sensing Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Flow Measurement Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Flow Measurement Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Pressure Measurement Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Pressure Measurement Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Window Covering Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Window Covering Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Thermostat Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Thermostat Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Software Diagnostics Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Software Diagnostics Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Ethernet Network Diagnostics Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Ethernet Network Diagnostics Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Thread Network Diagnostics Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Thread Network Diagnostics Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Wi-Fi Network Diagnostics Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Wi-Fi Network Diagnostics Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Diagnostic Logs Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Diagnostic Logs Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Identify Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Identify Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Power Source Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Power Source Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Power Source Configuration Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Power Source Configuration Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Boolean State Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Boolean State Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Illuminance Measurement Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Illuminance Measurement Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Switch Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Switch Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Actions Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Actions Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Mode Select Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Mode Select Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ RVC Run Mode Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ RVC Run Mode Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ RVC Clean Mode Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ RVC Clean Mode Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Descriptor Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Descriptor Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ General Diagnostics Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ General Diagnostics Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ General Commissioning Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ General Commissioning Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ User Label Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ User Label Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Fixed Label Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Fixed Label Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Localization Configuration Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Localization Configuration Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Unit Localization Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Unit Localization Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Time Format Localization Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Time Format Localization Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Door Lock Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Door Lock Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Binding Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Binding Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Groups Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Groups Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Scenes Management Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Scenes Management Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Access Control Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Access Control Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Bridged Device Basic Information Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Bridged Device Basic Information Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Time Synchronization Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Time Synchronization Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Carbon Monoxide Concentration Measurement Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Carbon Monoxide Concentration Measurement Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Carbon Dioxide Concentration Measurement Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Carbon Dioxide Concentration Measurement Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Nitrogen Dioxide Concentration Measurement Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Nitrogen Dioxide Concentration Measurement Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Ozone Concentration Measurement Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Ozone Concentration Measurement Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ PM2.5 Concentration Measurement Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ PM2.5 Concentration Measurement Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Formaldehyde Concentration Measurement Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Formaldehyde Concentration Measurement Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ PM1 Concentration Measurement Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ PM1 Concentration Measurement Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ PM10 Concentration Measurement Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ PM10 Concentration Measurement Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Total Volatile Organic Compounds Concentration Measurement Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Total Volatile Organic Compounds Concentration Measurement Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Radon Concentration Measurement Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Radon Concentration Measurement Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Temperature Control Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Temperature Control Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Laundry Dryer Controls Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Laundry Dryer Controls Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Laundry Washer Mode Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Laundry Washer Mode Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Laundry Washer Controls Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Laundry Washer Controls Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Fan Control Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Fan Control Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Dishwasher Mode Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Dishwasher Mode Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Dishwasher Alarm Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Dishwasher Alarm Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Operational State Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Operational State Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Oven Cavity Operational State Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Oven Cavity Operational State Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Air Quality Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Air Quality Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ HEPA Filter Monitoring Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ HEPA Filter Monitoring Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Activated Carbon Filter Monitoring Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Activated Carbon Filter Monitoring Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Refrigerator and Temperature Controlled Cabinet Mode Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Refrigerator and Temperature Controlled Cabinet Mode Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Refrigerator Alarm Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Refrigerator Alarm Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ RVC Operational State Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ RVC Operational State Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Smoke CO Alarm Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Smoke CO Alarm Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Device Energy Management Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Device Energy Management Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Device Energy Management Mode Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Device Energy Management Mode Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Microwave Oven Control Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Microwave Oven Control Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Microwave Oven Mode Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Microwave Oven Mode Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Boolean State Configuration Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Boolean State Configuration Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Valve Configuration and Control Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Valve Configuration and Control Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Oven Mode Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Oven Mode Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Energy EVSE Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Energy EVSE Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Energy Preference Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Energy Preference Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Energy EVSE Mode Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Energy EVSE Mode Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Messages Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Messages Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Power Topology Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Power Topology Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Joint Fabric Datastore Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Joint Fabric Datastore Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Thread Border Router Management Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Thread Border Router Management Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Ecosystem Information Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Ecosystem Information Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Commissioner Control Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Commissioner Control Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Service Area Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Service Area Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Wi-Fi Network Management Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Wi-Fi Network Management Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Thread Network Directory Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Thread Network Directory Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Water Heater Management Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Water Heater Management Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Water Heater Mode Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Water Heater Mode Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Camera AV Settings User Level Management Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Camera AV Settings User Level Management Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ WebRTC Transport Provider Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ WebRTC Transport Provider Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ WebRTC Transport Requestor Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ WebRTC Transport Requestor Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Closure Control Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Closure Control Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Closure Dimension Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Closure Dimension Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Chime Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Chime Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Commodity Price Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Commodity Price Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Commodity Metering Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Commodity Metering Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Camera AV Stream Management Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Camera AV Stream Management Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Electrical Grid Conditions Cluster Test Plan is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Electrical Grid Conditions Cluster Test Plan is finished
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Base is started
+2025-07-15 22:03:09 INFO     CreateXmlFile _ Base is finished
+2025-07-15 22:03:09 INFO     Execution Completed: ID:371D58 - 2025-07-15 - 22:03:09:980 
+
+2025-07-17 11:00:42 INFO     Execution started - Test plan HTML to XML, ID:BCA257 - 2025-07-17 - 11:00:42:598
+2025-07-17 11:00:42 INFO     Executing log_class_method in D:\Data\Chip\PICS_Development\Development\Sample_Dev\chip-test-plans-master\tools\PICS_Automation\logger_mixin.py
+2025-07-17 11:00:42 INFO     Executing process_data in DataProcessor
+2025-07-17 11:00:42 INFO     Executing read_file_data in JsonTestPlanReader
+2025-07-17 11:00:42 INFO     Executing acquire_data in HTMLDataAcquisition
+2025-07-17 11:01:01 INFO     Executing extract_revision_data in RevisionHtmlData
+2025-07-17 11:01:01 INFO     Executing extract_revision_data in RevisionHtmlData
+2025-07-17 11:01:01 INFO     Executing load_revision_data in RevisionHtmlData
+2025-07-17 11:01:01 INFO     Executing process_html_data in HTMLDataWrangler
+2025-07-17 11:01:01 INFO     Executing process_html_data in HtmlTagProcessor
+2025-07-17 11:01:01 INFO     Executing load_html in HtmlTagProcessor
+2025-07-17 11:01:02 INFO     Executing data wrangling in TpPicsWrangling
+2025-07-17 11:01:02 INFO     Executing process_html_data in HtmlTagProcessor
+2025-07-17 11:01:02 INFO     Executing load_html in HtmlTagProcessor
+2025-07-17 11:01:03 INFO     Executing data wrangling in TpPicsWrangling
+2025-07-17 11:01:03 DEBUG    Test Cases definition heading is missing :   ClusterTestPlans-1.Commodity Metering Cluster Test Plan
+2025-07-17 11:01:03 DEBUG    No of PICS definition heading is missing :  ClusterTestPlans-0
+2025-07-17 11:01:03 DEBUG    No of Test Cases definition heading is missing :  ClusterTestPlans-1
+2025-07-17 11:01:03 INFO     process_html_data in HTMLDataWrangler executed successfully
+2025-07-17 11:01:03 INFO     Executing explore in TpPicsExplorer
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Temperature Measurement Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Relative Humidity Measurement Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Soil Measurement Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Thermostat User Interface Configuration Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Pump Configuration and Control Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Media Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Level Control Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Occupancy Sensing Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Flow Measurement Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Pressure Measurement Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Thermostat Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Ethernet Network Diagnostics Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Thread Network Diagnostics Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Diagnostic Logs Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Identify Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Power Source Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Power Source Configuration Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Boolean State Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Illuminance Measurement Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Switch Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Actions Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Mode Select Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  User Label Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Fixed Label Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Localization Configuration Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Unit Localization Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Binding Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Scenes Management Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Access Control Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Time Synchronization Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Carbon Monoxide Concentration Measurement Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Carbon Dioxide Concentration Measurement Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Nitrogen Dioxide Concentration Measurement Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Ozone Concentration Measurement Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  PM2.5 Concentration Measurement Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Formaldehyde Concentration Measurement Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  PM1 Concentration Measurement Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  PM10 Concentration Measurement Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Total Volatile Organic Compounds Concentration Measurement Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Radon Concentration Measurement Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Temperature Control Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Laundry Dryer Controls Cluster Test Plan 
+2025-07-17 11:01:03 DEBUG    No PIXIT definition table :  Laundry Washer Controls Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    No PIXIT definition table :  Fan Control Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    No PIXIT definition table :  Dishwasher Alarm Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    No PIXIT definition table :  Air Quality Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    No PIXIT definition table :  HEPA Filter Monitoring Test Plan 
+2025-07-17 11:01:04 DEBUG    No PIXIT definition table :  Activated Carbon Filter Monitoring Test Plan 
+2025-07-17 11:01:04 DEBUG    No PIXIT definition table :  RVC Operational State Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    No PIXIT definition table :  Microwave Oven Control Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    No PIXIT definition table :  Valve Configuration and Control Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    No PIXIT definition table :  Energy Preference Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    No PIXIT definition table :  Messages Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    No PIXIT definition table :  Power Topology Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    No PIXIT definition table :  Joint Fabric Datastore Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    No PIXIT definition table :  Ecosystem Information Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    No PIXIT definition table :  Commissioner Control Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    No PIXIT definition table :  Wi-Fi Network Management Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    No PIXIT definition table :  Thread Network Directory Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    No PIXIT definition table :  WebRTC Transport Provider Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    No PIXIT definition table :  WebRTC Transport Requestor Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    No PIXIT definition table :  Chime Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    No PIXIT definition table :  Commodity Metering Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    No PIXIT definition table :  Camera AV Stream Management Cluster Test Plan 
+2025-07-17 11:01:04 INFO     Executing read_pics_tag in TpPicsExplorer
+2025-07-17 11:01:04 DEBUG    Invalid Table - 2 ['Note' 'consistency of these PICS-flags is checked in TC-SWTCH-3.2'] - Switch Cluster Test Plan - Table No:10
+2025-07-17 11:01:04 DEBUG    Invalid Table - 2 ['Note'
+ "These 'manual' changes could be done be by manual control at the device or other manufacturer provided means, e.g. an app which has some proprietary interface into the server allowing to change the set of exposed groups and/or actions."] - Actions Cluster Test Plan - Table No:6
+2025-07-17 11:01:04 INFO     Table column heading details and used count
+2025-07-17 11:01:04 DEBUG    ['Variable', 'Description', 'Mandatory/Optional', 'Notes/Additional Constraints'] - 513 tables
+2025-07-17 11:01:04 DEBUG    ['Note', 'consistency of these PICS-flags is checked in TC-SWTCH-3.2'] - 1 tables
+2025-07-17 11:01:04 DEBUG    ['Note', "These 'manual' changes could be done be by manual control at the device or other manufacturer provided means, e.g. an app which has some proprietary interface into the server allowing to change the set of exposed groups and/or actions."] - 1 tables
+2025-07-17 11:01:04 INFO     Executing explore in TpTestCasesExplorer
+2025-07-17 11:01:04 DEBUG    No Test Cases in   :  Commodity Metering Cluster Test Plan
+2025-07-17 11:01:04 INFO     Executing exploration in XmlPicsExploration
+2025-07-17 11:01:04 DEBUG    Unexpected PICS Format :  General Commissioning Cluster Test Plan-{PICS_ESF_TC_CLIENT} - Added into ServerClient.SERVER.manually
+2025-07-17 11:01:04 DEBUG    Wrong PICS definition Table : General Commissioning Cluster Test Plan-{PICS_ESF_TC_CLIENT}-defined in Server
+2025-07-17 11:01:04 DEBUG    Unexpected PICS Format :  WebRTC Transport Provider Cluster Test Plan-WEBRTCP.S.A0000CurrentSessions - Added into ServerClient.SERVER.manually
+2025-07-17 11:01:04 DEBUG    Wrong PICS definition Table : WebRTC Transport Provider Cluster Test Plan-WEBRTCP.S.A0000CurrentSessions-defined in Server
+2025-07-17 11:01:04 DEBUG    Unexpected PICS Format :  WebRTC Transport Requestor Cluster Test Plan-WEBRTCR.S.A0000CurrentSessions - Added into ServerClient.SERVER.manually
+2025-07-17 11:01:04 DEBUG    Wrong PICS definition Table : WebRTC Transport Requestor Cluster Test Plan-WEBRTCR.S.A0000CurrentSessions-defined in Server
+2025-07-17 11:01:04 DEBUG    Unexpected PICS Format :  Commodity Price Cluster Test Plan-{PICS_SE_FORECASTCHANGE} - Added into ServerClient.SERVER.manually
+2025-07-17 11:01:04 DEBUG    Wrong PICS definition Table : Commodity Price Cluster Test Plan-{PICS_SE_FORECASTCHANGE}-defined in Server
+2025-07-17 11:01:04 DEBUG    Unexpected PICS Format :  Commodity Metering Cluster Test Plan-.S - Added into ServerClient.SERVER.manually
+2025-07-17 11:01:04 DEBUG    Wrong PICS definition Table : Commodity Metering Cluster Test Plan-.S-defined in Role
+2025-07-17 11:01:04 DEBUG    Unexpected PICS Format :  Commodity Metering Cluster Test Plan-.C - Added into ServerClient.SERVER.manually
+2025-07-17 11:01:04 DEBUG    Wrong PICS definition Table : Commodity Metering Cluster Test Plan-.C-defined in Role
+2025-07-17 11:01:04 DEBUG    Unexpected PICS Format :  Commodity Metering Cluster Test Plan-.S.A0000(MeteredQuantity) - Added into ServerClient.SERVER.manually
+2025-07-17 11:01:04 DEBUG    Wrong PICS definition Table : Commodity Metering Cluster Test Plan-.S.A0000(MeteredQuantity)-defined in Server
+2025-07-17 11:01:04 DEBUG    Unexpected PICS Format :  Commodity Metering Cluster Test Plan-.S.A0001(MeteredQuantityTimestamp) - Added into ServerClient.SERVER.manually
+2025-07-17 11:01:04 DEBUG    Wrong PICS definition Table : Commodity Metering Cluster Test Plan-.S.A0001(MeteredQuantityTimestamp)-defined in Server
+2025-07-17 11:01:04 DEBUG    Unexpected PICS Format :  Commodity Metering Cluster Test Plan-.S.A0002(MeasurementType) - Added into ServerClient.SERVER.manually
+2025-07-17 11:01:04 DEBUG    Wrong PICS definition Table : Commodity Metering Cluster Test Plan-.S.A0002(MeasurementType)-defined in Server
+2025-07-17 11:01:04 DEBUG    Unexpected PICS Format :  Commodity Metering Cluster Test Plan-.S.A0003(MaximumMeteredQuantities) - Added into ServerClient.SERVER.manually
+2025-07-17 11:01:04 DEBUG    Wrong PICS definition Table : Commodity Metering Cluster Test Plan-.S.A0003(MaximumMeteredQuantities)-defined in Server
+2025-07-17 11:01:04 DEBUG    Unexpected PICS Format :  Electrical Grid Conditions Cluster Test Plan-{PICS_SE_FORECASTCONDITIONSCHANGED} - Added into ServerClient.SERVER.manually
+2025-07-17 11:01:04 DEBUG    Wrong PICS definition Table : Electrical Grid Conditions Cluster Test Plan-{PICS_SE_FORECASTCONDITIONSCHANGED}-defined in Server
+2025-07-17 11:01:04 INFO     XmlPicsExploration - exploration : End
+2025-07-17 11:01:04 INFO     mcore_cluster_list - 
+Switch Cluster Test Plan ,
+ Groups Cluster Test Plan
+2025-07-17 11:01:04 INFO     Executing process_cluster_data in StatusFinder
+2025-07-17 11:01:04 DEBUG    PICS values without Comformance PIXIT.OO.MaxCommunicationTurnaround - OO.S
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in EEM.S.F00(IMPE) - EEM.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in EEM.S.F01(EXPE) - EEM.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in EEM.S.F02(CUME) - EEM.S: O.b+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in EEM.S.F03(PERE) - EEM.S: O.b+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in EPM.S.F00(DIRC) - EPM.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in EPM.S.F01(ALTC) - EPM.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in PCC.S.F00(PRSCONST) - PCC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in PCC.S.F01(PRSCOMP) - PCC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in PCC.S.F02(FLW) - PCC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in PCC.S.F03(SPD) - PCC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in PCC.S.F04(TEMP) - PCC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in OCC.S.F00(OTHER) - OCC.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in OCC.S.F01(PIR) - OCC.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in OCC.S.F02(US) - OCC.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in OCC.S.F03(PHY) - OCC.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in OCC.S.F04(AIR) - OCC.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in OCC.S.F05(RAD) - OCC.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in OCC.S.F06(RFS) - OCC.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in OCC.S.F07(VIS) - OCC.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in WNCV.S.F00(LF) - WNCV.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in WNCV.S.F01(TL) - WNCV.S:O.a+
+2025-07-17 11:01:04 DEBUG    PICS values without Comformance PIXIT.WNCV.FULLMOTION - WNCV.S
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in PS.S.F00(Wired) - PS.S:O.a
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in PS.S.F01(Battery) - PS.S:O.a
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in SWTCH.S.F00(LS) - SWTCH.S: O.a
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in SWTCH.S.F01(MS) - SWTCH.S: O.a
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in CMOCONC.S.F00(MEA) - CMOCONC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in CMOCONC.S.F01(LEV) - CMOCONC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in CDOCONC.S.F00(MEA) - CDOCONC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in CDOCONC.S.F01(LEV) - CDOCONC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in NDOCONC.S.F00(MEA) - NDOCONC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in NDOCONC.S.F01(LEV) - NDOCONC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in OZCONC.S.F00(MEA) - OZCONC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in OZCONC.S.F01(LEV) - OZCONC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in PMICONC.S.F00(MEA) - PMICONC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in PMICONC.S.F01(LEV) - PMICONC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in FLDCONC.S.F00(MEA) - FLDCONC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in FLDCONC.S.F01(LEV) - FLDCONC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in PMHCONC.S.F00(MEA) - PMHCONC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in PMHCONC.S.F01(LEV) - PMHCONC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in PMKCONC.S.F00(MEA) - PMKCONC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in PMKCONC.S.F01(LEV) - PMKCONC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in TVOCCONC.S.F00(MEA) - TVOCCONC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in TVOCCONC.S.F01(LEV) - TVOCCONC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in RNCONC.S.F00(MEA) - RNCONC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in RNCONC.S.F01(LEV) - RNCONC.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in DISHALM.S.M.InflowAlarmSupported - DISHALM.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in DISHALM.S.M.DrainAlarmSupported - DISHALM.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in DISHALM.S.M.DoorAlarmSupported - DISHALM.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in DISHALM.S.M.TempLowAlarmSupported - DISHALM.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in DISHALM.S.M.TempHighAlarmSupported - DISHALM.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in DISHALM.S.M.WaterLevelAlarmSupported - DISHALM.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in SMOKECO.S.F00(SMOKE) - SMOKECO.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in SMOKECO.S.F01(CO) - SMOKECO.S:O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in EPREF.S.F00(EnergyBalance) - EPREF.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in EPREF.S.F01(LowPowerModeSensitivity) - EPREF.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in PWRTL.S.F00(NODE) - PWRTL.S: O.a
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in PWRTL.S.F01(LEAF) - PWRTL.S: O.a
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in PWRTL.S.F02(SET) - PWRTL.S: O.a
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in AVSUM.S.F01(MPAN) - AVSUM.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in AVSUM.S.F02(MTILT) - AVSUM.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in AVSUM.S.F03(MZOOM) - AVSUM.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in CLCTRL.S.F00(PS) - CLCTRL.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in CLCTRL.S.F01(LT) - CLCTRL.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in CLDIM.S.F00(PS) - CLDIM.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in CLDIM.S.F01(LT) - CLDIM.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in AVSM.S.A0022(ImageRotation) - AVSM.S.F05(ICTL): O.b+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in AVSM.S.A0023(ImageFlipHorizontal) - AVSM.S.F05(ICTL): O.b+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in AVSM.S.A0024(ImageFlipVertical) - AVSM.S.F05(ICTL): O.b+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in AVSM.S.F00(ADO) - AVSM.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in AVSM.S.F01(VDO) - AVSM.S: O.a+
+2025-07-17 11:01:04 DEBUG    Spl type Conformance format in AVSM.S.F02(SNP) - AVSM.S: O.a+
+2025-07-17 11:01:04 DEBUG    1. Multiple PICS definitions found in - OO.C.C00.Tx(Off),Cluster details:
+2025-07-17 11:01:04 DEBUG      1. Parent definition : On/Off Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG      2. Duplicate definition: Binding Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    2. Multiple PICS definitions found in - OO.C.C01.Tx(On),Cluster details:
+2025-07-17 11:01:04 DEBUG      1. Parent definition : On/Off Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG      2. Duplicate definition: Binding Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    3. Multiple PICS definitions found in - I.S.A0000(IdentifyTime),Cluster details:
+2025-07-17 11:01:04 DEBUG      1. Parent definition : Identify Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG      2. Duplicate definition: Groups Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    4. Multiple PICS definitions found in - I.S.C00.Rsp(Identify),Cluster details:
+2025-07-17 11:01:04 DEBUG      1. Parent definition : Identify Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG      2. Duplicate definition: Groups Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    5. Multiple PICS definitions found in - GRPKEY.C,Cluster details:
+2025-07-17 11:01:04 DEBUG      1. Duplicate definition: Binding Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG      2. Duplicate definition: Groups Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    6. Multiple PICS definitions found in - G.C.C00.Tx(AddGroup),Cluster details:
+2025-07-17 11:01:04 DEBUG      1. Duplicate definition: Binding Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG      2. Parent definition : Groups Cluster Test Plan 
+2025-07-17 11:01:04 ERROR    Error in duplicate_pics_details_remove of StatusFinder: 'GRPKEY.C'
+Traceback (most recent call last):
+  File "D:\Data\Chip\PICS_Development\Development\Sample_Dev\chip-test-plans-master\tools\PICS_Automation\status_finder.py", line 407, in duplicate_pics_details_remove
+    parent_cluster = parent_pics_dict[duplicate_pics]
+                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'GRPKEY.C'
+2025-07-17 11:01:04 DEBUG    1. Multiple PIXIT definitions found in - {PIXIT.WAITTIME.COUNTDOWN},Cluster details:
+2025-07-17 11:01:04 DEBUG      1. Duplicate definition: Operational State Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG      2. Duplicate definition: Oven Cavity Operational State Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG    2. Multiple PIXIT definitions found in - {PIXIT.WAITTIME.REBOOT},Cluster details:
+2025-07-17 11:01:04 DEBUG      1. Duplicate definition: Operational State Cluster Test Plan 
+2025-07-17 11:01:04 DEBUG      2. Duplicate definition: Oven Cavity Operational State Cluster Test Plan 
+2025-07-17 11:01:04 INFO     Pics - O count: 735
+2025-07-17 11:01:04 INFO     Pics - M count: 484
+2025-07-17 11:01:04 INFO     Pics - X count: 23
+2025-07-17 11:01:04 INFO     Pics - M Provisional count: 0
+2025-07-17 11:01:04 INFO     Pics - NOT Zigbee count: 0
+2025-07-17 11:01:04 INFO     Pics - Feature count: 835
+2025-07-17 11:01:04 INFO     Pics - O.a+ count: 61
+2025-07-17 11:01:04 INFO     Pics - Double line count: 48
+2025-07-17 11:01:04 INFO     Pics - Duplicate count: 6
+2025-07-17 11:01:04 INFO     Pics - Others count: 0
+2025-07-17 11:01:04 INFO     Pics - PICS count: 2106
+2025-07-17 11:01:04 INFO     Pics - TOTAL count: 2104
+2025-07-17 11:01:04 INFO     Pics - MCORE count: 2
+2025-07-17 11:01:04 INFO     Pics - O.b+ count: 5
+2025-07-17 11:01:04 INFO     Pics - O.a count: 11
+2025-07-17 11:01:04 INFO     Pics - Difference between PICS count vs TOTAL count: 2
+2025-07-17 11:01:04 INFO     Pics - All_difference: 12
+2025-07-17 11:01:05 INFO     Pixit - O count: 27
+2025-07-17 11:01:05 INFO     Pixit - M count: 41
+2025-07-17 11:01:05 INFO     Pixit - X count: 0
+2025-07-17 11:01:05 INFO     Pixit - M Provisional count: 0
+2025-07-17 11:01:05 INFO     Pixit - NOT Zigbee count: 0
+2025-07-17 11:01:05 INFO     Pixit - Feature count: 17
+2025-07-17 11:01:05 INFO     Pixit - O.a+ count: 0
+2025-07-17 11:01:05 INFO     Pixit - Double line count: 0
+2025-07-17 11:01:05 INFO     Pixit - Duplicate count: 2
+2025-07-17 11:01:05 INFO     Pixit - Others count: 0
+2025-07-17 11:01:05 INFO     Pixit - PIXIT count: 85
+2025-07-17 11:01:05 INFO     Pixit - TOTAL count: 85
+2025-07-17 11:01:05 INFO     Pixit - MCORE count: 0
+2025-07-17 11:01:05 INFO     Pixit - Difference between PIXIT count vs TOTAL count: 0
+2025-07-17 11:01:05 INFO     Pixit - All_difference: 0
+2025-07-17 11:01:05 INFO     CreateXmlFile _ On/Off Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ On-Off Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Electrical Energy Measurement Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Electrical Energy Measurement Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Electrical Power Measurement Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Electrical Power Measurement Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Temperature Measurement Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Temperature Measurement Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Relative Humidity Measurement Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Relative Humidity Measurement Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Soil Measurement Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Soil Measurement Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Thermostat User Interface Configuration Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Thermostat User Interface Configuration Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Pump Configuration and Control Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Pump Configuration and Control Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Media Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Media Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Level Control Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Level Control Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Color Control Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Color Control Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Occupancy Sensing Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Occupancy Sensing Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Flow Measurement Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Flow Measurement Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Pressure Measurement Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Pressure Measurement Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Window Covering Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Window Covering Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Thermostat Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Thermostat Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Software Diagnostics Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Software Diagnostics Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Ethernet Network Diagnostics Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Ethernet Network Diagnostics Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Thread Network Diagnostics Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Thread Network Diagnostics Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Wi-Fi Network Diagnostics Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Wi-Fi Network Diagnostics Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Diagnostic Logs Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Diagnostic Logs Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Identify Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Identify Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Power Source Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Power Source Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Power Source Configuration Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Power Source Configuration Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Boolean State Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Boolean State Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Illuminance Measurement Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Illuminance Measurement Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Switch Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Switch Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Actions Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Actions Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Mode Select Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Mode Select Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ RVC Run Mode Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ RVC Run Mode Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ RVC Clean Mode Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ RVC Clean Mode Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Descriptor Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Descriptor Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ General Diagnostics Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ General Diagnostics Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ General Commissioning Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ General Commissioning Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ User Label Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ User Label Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Fixed Label Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Fixed Label Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Localization Configuration Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Localization Configuration Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Unit Localization Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Unit Localization Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Time Format Localization Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Time Format Localization Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Door Lock Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Door Lock Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Binding Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Binding Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Groups Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Groups Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Scenes Management Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Scenes Management Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Access Control Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Access Control Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Bridged Device Basic Information Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Bridged Device Basic Information Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Time Synchronization Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Time Synchronization Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Carbon Monoxide Concentration Measurement Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Carbon Monoxide Concentration Measurement Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Carbon Dioxide Concentration Measurement Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Carbon Dioxide Concentration Measurement Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Nitrogen Dioxide Concentration Measurement Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Nitrogen Dioxide Concentration Measurement Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Ozone Concentration Measurement Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Ozone Concentration Measurement Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ PM2.5 Concentration Measurement Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ PM2.5 Concentration Measurement Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Formaldehyde Concentration Measurement Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Formaldehyde Concentration Measurement Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ PM1 Concentration Measurement Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ PM1 Concentration Measurement Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ PM10 Concentration Measurement Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ PM10 Concentration Measurement Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Total Volatile Organic Compounds Concentration Measurement Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Total Volatile Organic Compounds Concentration Measurement Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Radon Concentration Measurement Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Radon Concentration Measurement Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Temperature Control Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Temperature Control Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Laundry Dryer Controls Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Laundry Dryer Controls Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Laundry Washer Mode Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Laundry Washer Mode Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Laundry Washer Controls Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Laundry Washer Controls Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Fan Control Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Fan Control Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Dishwasher Mode Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Dishwasher Mode Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Dishwasher Alarm Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Dishwasher Alarm Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Operational State Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Operational State Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Oven Cavity Operational State Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Oven Cavity Operational State Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Air Quality Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Air Quality Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ HEPA Filter Monitoring Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ HEPA Filter Monitoring Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Activated Carbon Filter Monitoring Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Activated Carbon Filter Monitoring Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Refrigerator and Temperature Controlled Cabinet Mode Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Refrigerator and Temperature Controlled Cabinet Mode Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Refrigerator Alarm Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Refrigerator Alarm Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ RVC Operational State Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ RVC Operational State Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Smoke CO Alarm Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Smoke CO Alarm Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Device Energy Management Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Device Energy Management Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Device Energy Management Mode Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Device Energy Management Mode Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Microwave Oven Control Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Microwave Oven Control Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Microwave Oven Mode Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Microwave Oven Mode Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Boolean State Configuration Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Boolean State Configuration Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Valve Configuration and Control Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Valve Configuration and Control Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Oven Mode Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Oven Mode Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Energy EVSE Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Energy EVSE Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Energy Preference Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Energy Preference Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Energy EVSE Mode Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Energy EVSE Mode Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Messages Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Messages Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Power Topology Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Power Topology Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Joint Fabric Datastore Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Joint Fabric Datastore Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Thread Border Router Management Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Thread Border Router Management Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Ecosystem Information Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Ecosystem Information Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Commissioner Control Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Commissioner Control Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Service Area Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Service Area Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Wi-Fi Network Management Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Wi-Fi Network Management Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Thread Network Directory Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Thread Network Directory Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Water Heater Management Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Water Heater Management Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Water Heater Mode Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Water Heater Mode Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Camera AV Settings User Level Management Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Camera AV Settings User Level Management Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ WebRTC Transport Provider Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ WebRTC Transport Provider Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ WebRTC Transport Requestor Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ WebRTC Transport Requestor Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Closure Control Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Closure Control Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Closure Dimension Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Closure Dimension Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Chime Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Chime Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Commodity Price Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Commodity Price Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Commodity Metering Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Commodity Metering Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Camera AV Stream Management Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Camera AV Stream Management Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Electrical Grid Conditions Cluster Test Plan is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Electrical Grid Conditions Cluster Test Plan is finished
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Base is started
+2025-07-17 11:01:05 INFO     CreateXmlFile _ Base is finished
+2025-07-17 11:01:05 INFO     Execution Completed: ID:BCA257 - 2025-07-17 - 11:01:05:384 
+
